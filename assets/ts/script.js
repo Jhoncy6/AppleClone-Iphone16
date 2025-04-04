@@ -285,15 +285,6 @@ a120mm.addEventListener('click', function(e) {
 });
 
 
-
-
-
-
-
-
-
-
-
 // IPHONES COMAPRAÇÃO
 
 infoProcessador = document.getElementById('infoProcessador')
@@ -458,3 +449,46 @@ document.getElementById('comparacaoIphones').addEventListener('change', function
     break;
   }
 });
+
+
+collapse1 = document.getElementById('flush-collapseOne');
+collapse2 = document.getElementById('flush-collapseTwo');
+collapse3 = document.getElementById('flush-collapseThree');
+
+iphneAndMac = document.getElementById('iphneAndMac')
+AppWatch = document.getElementById('AppWatch')
+AirPods = document.getElementById('AirPods')
+
+
+function resetarIMG ()
+{
+  iphoneAndMac.classList.remove('imgActive')
+  AppWatch.classList.remove('imgActive')
+  AirPods.classList.remove('imgActive')
+}
+
+
+function trocarImagem(tipo) {
+  resetarIMG();
+
+  switch (tipo) {
+    case 'mac':
+      iphoneAndMac.classList.add('imgActive');
+      iphoneAndMac.classList.remove('imgBlock');
+      break;
+
+    case 'watch':
+      AppWatch.classList.add('imgActive');
+      AppWatch.classList.remove('imgBlock');
+      break;
+
+    case 'airpods':
+      AirPods.classList.add('imgActive');
+      AirPods.classList.remove('imgBlock');
+      break;
+  }
+}
+
+
+
+

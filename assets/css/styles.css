@@ -1611,13 +1611,115 @@ select.form-select:focus {
   height: 61%;
 }
 
+.Designed
+{
+  background-color: #000;
+}
 
+.tituloDesigned
+{
+  font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: #fff;
+    margin-top: 80px;
+}
 
+.subTituloDesigned {
+  margin-top: 90px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #fff;
+}
 
+.verde{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 8%;
+}
 
+.infoVerde
+{
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  color: #86868b;
+}
 
+.infoVerde strong
+{
+  color: #fff;
+}
 
+.LeanA
+{
+  margin-top: 90px;
+    font-size: 18px;
+    line-height: 1.381002381;
+    font-weight: 600;
+    text-decoration: none;
+    color: #007aff !important;
+}
 
+.LeanA:hover {
+  text-decoration: underline;
+}
+
+.Significant {
+  background-color: #1d1d1f;
+  padding: 80px 0;
+}
+
+.SignificantH1 {
+  font-size: 56px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.boxIphone {
+  background-color: #000;
+  border-radius: 12px;
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.accordion-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #000;
+}
+
+.accordion-body {
+  background-color: #000;
+  color: #bbb;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.imgActive {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.imgBlock {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
 
 
 @keyframes piscadinha {
