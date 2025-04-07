@@ -11,10 +11,10 @@ gsap.fromTo(ImgHero,
   {
     scale: 1,
     ease: 'power4.out',
-    immediateRender: false, // <- ESSENCIAL NESSE CASO
+    immediateRender: false, 
     scrollTrigger: {
       trigger: AnimacaoScroll,
-      start: 'top center', // compensação da navbar
+      start: 'top center',
       end: 'bottom center',
       scrub: true,
       markers: true,
