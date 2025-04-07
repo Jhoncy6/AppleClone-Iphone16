@@ -1,0 +1,2740 @@
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:100;
+	src:local('☺'), url("/assets/Font/sf-pro-display_ultralight.woff2") format("woff2"), url("/assets/Font/sf-pro-display_ultralight.woff") format("woff"), url("/assets/Font/sf-pro-display_ultralight.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:100;
+	src:local('☺'), url("/assets/Font/sf-pro-display_ultralight-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_ultralight-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_ultralight-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 100';
+	src:url('/assets/Font/sf-pro-display_ultralight.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺'), url("/assets/Font/sf-pro-display_thin.woff2") format("woff2"), url("/assets/Font/sf-pro-display_thin.woff") format("woff"), url("/assets/Font/sf-pro-display_thin.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:200;
+	src:local('☺'), url("/assets/Font/sf-pro-display_thin-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_thin-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_thin-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 200';
+	src:url('/assets/Font/sf-pro-display_thin.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺'), url("/assets/Font/sf-pro-display_light.woff2") format("woff2"), url("/assets/Font/sf-pro-display_light.woff") format("woff"), url("/assets/Font/sf-pro-display_light.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:300;
+	src:local('☺'), url("/assets/Font/sf-pro-display_light-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_light-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_light-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 300';
+	src:url('/assets/Font/sf-pro-display_light.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:400;
+	src:local('☺'), url("/assets/Font/sf-pro-display_regular-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_regular-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_regular-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺'), url("/assets/Font/sf-pro-display_medium.woff2") format("woff2"), url("/assets/Font/sf-pro-display_medium.woff") format("woff"), url("/assets/Font/sf-pro-display_medium.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:500;
+	src:local('☺'), url("/assets/Font/sf-pro-display_medium-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_medium-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_medium-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 500';
+	src:url('/assets/Font/sf-pro-display_medium.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺'), url("/assets/Font/sf-pro-display_semibold.woff2") format("woff2"), url("/assets/Font/sf-pro-display_semibold.woff") format("woff"), url("/assets/Font/sf-pro-display_semibold.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:600;
+	src:local('☺'), url("/assets/Font/sf-pro-display_semibold-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_semibold-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_semibold-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 600';
+	src:url('/assets/Font/sf-pro-display_semibold.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:700;
+	src:local('☺'), url("/assets/Font/sf-pro-display_bold.woff2") format("woff2"), url("/assets/Font/sf-pro-display_bold.woff") format("woff"), url("/assets/Font/sf-pro-display_bold.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:700;
+	src:local('☺'), url("/assets/Font/sf-pro-display_bold-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_bold-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_bold-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 700';
+	src:url('/assets/Font/sf-pro-display_bold.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:800;
+	src:local('☺'), url("/assets/Font/sf-pro-display_heavy.woff2") format("woff2"), url("/assets/Font/sf-pro-display_heavy.woff") format("woff"), url("/assets/Font/sf-pro-display_heavy.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:800;
+	src:local('☺'), url("/assets/Font/sf-pro-display_heavy-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_heavy-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_heavy-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 800';
+	src:url('/assets/Font/sf-pro-display_heavy.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺'), url("/assets/Font/sf-pro-display_black.woff2") format("woff2"), url("/assets/Font/sf-pro-display_black.woff") format("woff"), url("/assets/Font/sf-pro-display_black.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:italic;
+	font-weight:900;
+	src:local('☺'), url("/assets/Font/sf-pro-display_black-italic.woff2") format("woff2"), url("/assets/Font/sf-pro-display_black-italic.woff") format("woff"), url("/assets/Font/sf-pro-display_black-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display 900';
+	src:url('/assets/Font/sf-pro-display_black.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:400;
+	src:url('/assets/Font/sf-pro-display_regular.eot');
+	src:local('☺'), url("/assets/Font/sf-pro-display_regular.woff2") format("woff2"), url("/assets/Font/sf-pro-display_regular.woff") format("woff"), url("/assets/Font/sf-pro-display_regular.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:100;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_ultralight.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_ultralight.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_ultralight.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:100;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 100';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_ultralight.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_thin.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_thin.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_thin.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:200;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_thin-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 200';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_thin.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_light.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_light.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_light.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:300;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_light-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_light-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_light-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 300';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_light.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:400;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_regular-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_medium.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_medium.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_medium.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:500;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_medium-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 500';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_medium.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_semibold.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_semibold.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_semibold.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:600;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_semibold-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 600';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_semibold.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:700;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_bold.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_bold.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_bold.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:700;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_bold-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 700';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_bold.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:800;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_heavy.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_heavy.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_heavy.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:800;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_heavy-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 800';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_heavy.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_black.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_black.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_black.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:italic;
+	font-weight:900;
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_black-italic.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_black-italic.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_black-italic.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text 900';
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_black.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+	font-style:normal;
+	font-weight:400;
+	src:url('/assets/Font/SF-Pro-Text/v3/sf-pro-text_regular.eot');
+	src:local('☺'), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_regular.woff2") format("woff2"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_regular.woff") format("woff"), url("/assets/Font/SF-Pro-Text/v3/sf-pro-text_regular.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:100;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_ultralight.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_ultralight.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 100';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_ultralight.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_thin.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_thin.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_thin.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 200';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_thin.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_light.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_light.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_light.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 300';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_light.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_medium.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_medium.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_medium.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 500';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_medium.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:600;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_semibold.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_semibold.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_semibold.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 600';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_semibold.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:700;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_bold.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_bold.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_bold.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 700';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_bold.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:800;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_heavy.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_heavy.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_heavy.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 800';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_heavy.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:900;
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_black.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_black.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_black.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons 900';
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_black.eot');
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:400;
+	src:url('/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_regular.eot');
+	src:local('☺'), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_regular.woff2") format("woff2"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_regular.woff") format("woff"), url("/assets/Font/SF-Pro-Icons/v3/sf-pro-icons_regular.ttf") format("truetype");
+	/* (C) 2019 Apple Inc. All rights reserved.
+ */
+}
+
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8b8b8b;
+  border-radius: 6px;
+}
+
+
+#menu .logo {
+  position: relative;
+  text-decoration: none;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+  color: #646464;
+}
+
+.navbarColor {
+  background-color: #000000;
+}
+
+.navbar>.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-top {
+  position: fixed;
+  z-index: 1030;
+}
+
+#menu ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu ul li {
+  position: relative;
+  list-style: none;
+}
+
+#menu ul li a {
+  position: relative;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+#menu li i {
+  font-size: 14px;
+}
+
+.mmenuu {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px #ffffff00;
+  backdrop-filter: blur(0px);
+  padding: 2px 20px;
+  transition: 0.6s;
+}
+
+.textScroll {
+  color: #ffff;
+}
+
+.bgDiferente {
+  background-color: #00000071;
+  backdrop-filter: blur(6px);
+  padding: 2px 20px;
+  backdrop-filter: saturate(180%) blur(20px);
+  transition: 0.6s;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.504);
+  margin-top: -8px;
+}
+
+.NavBarEscondida {
+  display: none !important;
+}
+
+.textoIphone,
+.butaoComprar,
+.LinksEscondidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0px 180px;
+}
+
+.textoIphone,
+.butaoComprar,
+.LinksEscondidos li {
+  display: block;
+}
+
+.LinksEscondidos a {
+  color: #a09f9e;
+}
+
+.textoIphone,
+.butaoComprar,
+.LinksEscondidos a {
+  font-size: 15px !important;
+}
+
+
+.textoIphone,
+.butaoComprar,
+.LinksEscondidos a:hover {
+  color: #ffff !important;
+}
+
+.butaoComprar {
+  color: #ffff !important;
+  background-color: #007aff;
+  padding: 1px 12px;
+  border-radius: 16px;
+}
+
+.textoIphone {
+  position: relative !important;
+  text-decoration: none;
+  font-size: 22px !important;
+  color: #fff;
+}
+
+.infoSec.active {
+  color: #ffff !important;
+}
+
+/* DEPOIS DA NAV BAR */
+
+
+.subtitulo {
+  background-color: #1d1d1f;
+  width: 100%;
+  justify-content: center;
+  margin-top: 63px;
+}
+
+.subtitulo h1 {
+  font-size: 15px;
+  color: #edf5fb;
+  margin: 18px 0 18px;
+  line-height: 1.4285914286;
+  font-weight: 400;
+}
+
+.subtitulo a {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+.Apresentention {
+  background-color: black;
+  padding-top: 40px;
+}
+
+.apresentationIphoneH1 {
+  font-size: 24px !important;
+  line-height: 1.1428571429;
+  font-weight: 600;
+  letter-spacing: .007em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  left: 50%;
+  color: #ffff;
+  position: relative;
+  transform: translateX(-50%);
+  z-index: 2;
+  top: 25px;
+}
+
+.Biuld {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  bottom: 110px;
+}
+
+.IphoneDeitado {
+  position: relative;
+  bottom: 390px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1000px;
+  z-index: 1;
+}
+
+
+.comprar {
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+  position: relative;
+  bottom: 350px;
+}
+
+.detalhePreco {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  margin-top: -300px;
+}
+
+.subPreco {
+  color: #818186;
+}
+
+
+.highlights {
+  background-color: #1d1d1f;
+}
+
+.highlights h1 {
+  color: #ffffff;
+  margin-top: 170px;
+  padding: 100px;
+}
+
+.film {
+  font-size: 18px;
+  text-align: end;
+  padding: 20px;
+}
+
+.Titanium {
+  background-color: black;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.videoTwoiphone {
+  width: 100% !important;
+  height: 100vh !important;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.Strength {
+  bottom: 30px;
+  color: #c8c1bb;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin-top: 100px;
+}
+
+.TitaniumH1 {
+  padding: 10px;
+  color: #fefdfc;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-shadow:
+    0 0 5px #caa537,
+    0 0 10px #caa537,
+    0 0 15px #c7611dcb,
+    0 0 20px #c7611dcb,
+    0 0 25px #c7611dcb,
+    0 0 30px #c7611dcb,
+    0 0 35px #c7611dcb;
+}
+
+.InfoIphone h1 {
+  color: #86868b;
+  font-size: 21px;
+  letter-spacing: .011em;
+  text-align: justify;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+
+.InfoIphone strong {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: justify;
+  font-family: SF Pro;
+}
+
+.espacamento {
+  margin-bottom: 100px;
+}
+
+.espacamentoMeioTermo {
+  margin-bottom: 50px;
+}
+
+
+.espacamentoMenor {
+  margin-bottom: 30px;
+}
+
+.img {
+  transform: translateX(10000px);
+}
+
+.iphoneMao {
+  width: 80%;
+}
+
+.InfoIphone2 h1 {
+  color: #86868b;
+  font-size: 22px;
+  letter-spacing: .011em;
+  text-align: center;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+
+.InfoIphone2 strong {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: justify;
+  font-family: SF Pro;
+}
+
+.options .opcoes  {
+  background-color: #000000;
+}
+
+
+.opcoes a {
+  font-size: 19px;
+  color: #818181 !important;
+  line-height: 1.4705882353;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  text-decoration: none !important;
+  cursor: pointer;
+
+}
+
+
+.opcoes .active {
+  color: #ffffff !important;
+  cursor: context-menu;
+}
+
+.opcoes .active hr {
+  background-color: rgb(255 255 255);
+  opacity: 1 !important;
+  margin: 10 !important;
+}
+
+.opcoes .disable hr {
+  background-color: #818181 !important;
+  opacity: 0.25;
+  margin: 10 !important;
+}
+
+
+.opcoes .disable {
+  color: #818181 !important;
+  cursor: pointer;
+}
+
+.opcoes a:hover {
+  color: #cacaca !important;
+}
+
+
+.BackgroundGradiante {
+  background: linear-gradient(to bottom, #000000, #131313) !important;
+  width: 100%;
+  height: 100%;
+}
+
+.esconder {
+  display: none;
+}
+
+.aparecer h1 {
+  font-size: 23px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #ffffff;
+}
+
+.box {
+  border: 3px solid #0e0d0ded;
+  border-radius: 12px;
+  background-color: #000000;
+  padding: 35px;
+  position: relative;
+  display: block;
+  margin: 0 auto
+}
+
+.box h1 {
+  font-size: 16px;
+  color: #86868b;
+  line-height: 1.2857742857;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  text-align: center;
+  padding: 10px;
+}
+
+.box p {
+  margin-top: 20px;
+  color: rgb(134, 134, 139);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.box strong {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: justify;
+  font-family: SF Pro;
+}
+
+.media-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FotoMensager {
+  width: 230px;
+  height: auto;
+  z-index: 2;
+}
+
+.VideoMensager {
+  width: 210px;
+  height: auto;
+  object-fit: cover;
+  clip-path: circle(68%);
+  position: absolute;
+}
+
+.audioIMG {
+  display: block;
+  margin: 1em auto;  /* Centraliza a imagem horizontalmente com margem automática */
+  unicode-bidi: isolate;
+  width: 100%;  /* Ajusta a largura da imagem para se adaptar à caixa */
+  max-width: 700px;  /* Limita a largura máxima da imagem */
+  height: auto;  /* Ajusta a altura proporcionalmente */
+}
+
+
+.celularFoto {
+  width: 160px;
+  object-fit: cover;
+  object-position: 0px 154px;
+  margin-top: -120px;
+}
+
+.PatinMensager {
+  width: 210px;
+  height: auto;
+  object-fit: cover;
+  clip-path: circle(68%);
+  position: absolute;
+}
+
+.boxPatin {
+  border: 3px solid #0e0d0ded;
+  border-radius: 12px;
+  background-color: #000000;
+  position: relative;
+  padding: 10px;
+}
+
+.boxPatin h1 {
+  font-size: 16px;
+  color: #86868b;
+  line-height: 1.2857742857;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.privacidade {
+  background-color: #131313;
+}
+
+.imgPrivacidade {
+  margin-top: 50px;
+  width: 5%;
+}
+
+.h1boladao {
+  color: #ffffff !important;
+  font-size: 48px !important;
+  line-height: 1.0834933333 !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.003em !important;
+  text-align: center !important;
+}
+
+.privacidade h1 {
+  font-size: 18px;
+  color: #86868b;
+  line-height: 1.2857742857;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  text-align: left;
+  padding: 10px;
+}
+
+.privacidade strong {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.privacidade a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #2997ff;
+}
+
+.TakeControl {
+  background-color: black;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.TakeTotal {
+  bottom: 30px;
+  color: #c8c1bb;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin-top: 100px;
+}
+
+.TakeCamera {
+  padding: 10px;
+  color: #fefdfc;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-shadow:
+    0 0 5px #caa537,
+    0 0 10px #caa537,
+    0 0 15px #c7611dcb,
+    0 0 20px #c7611dcb,
+    0 0 25px #c7611dcb,
+    0 0 30px #c7611dcb,
+    0 0 35px #c7611dcb;
+}
+
+.videoPauseUnPause {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.iconeee {
+  font-size: 20px;
+}
+
+.play {
+  text-decoration: none !important;
+}
+
+.pause {
+  text-decoration: none !important;
+}
+
+.disablePouseUnPause {
+  display: none !important;
+}
+
+.ApresentacaoCamera {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.InfoCamera h1 {
+  color: #86868b;
+  font-size: 18px;
+  letter-spacing: .011em;
+  text-align: left;
+  line-height: 1.381002381;
+  font-weight: 600;
+}
+
+.InfoCamera strong {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+
+.HowCamera {
+  color: #2997ff;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+.antititulo {
+  color: #818181;
+  font-size: 18px !important;
+  letter-spacing: .011em;
+  text-align: justify !important;
+  line-height: 1.381002381;
+  font-weight: 600;
+  margin-left: 80px;
+  padding: 10px;
+
+}
+
+.tituloFood {
+  font-size: 30px !important;
+  text-align: justify !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  margin-left: 80px;
+
+}
+
+.subtituloFood {
+  font-size: 24px !important;
+  text-align: justify !important;
+  margin-left: 80px;
+}
+
+.food {
+  position: absolute;
+  top: 40px;
+  width: 365px;
+  right: 150px;
+}
+
+
+#BoxFood.box {
+  border: 3px solid #0e0d0ded;
+  border-radius: 12px;
+  background-color: #000000;
+  padding: 35px;
+  position: relative;
+  margin: 80px !important;
+}
+
+.cavalo {
+  background-color: #000000;
+}
+
+.media-container2 {
+  position: relative;
+}
+
+.imagemDoCavalo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 2;
+}
+
+.VideoCavalo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  clip-path: inset(1% round 11%);
+  z-index: 1;
+}
+
+.txtCavalo {
+  color: #808084;
+  margin-top: 24px;
+  line-height: 1.2857742857;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+  text-align: center !important;
+}
+
+.h1Cavalo {
+  color: #86868b;
+  font-size: 19px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  margin-top: 40px;
+}
+
+.h1Cavalo strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+
+.h1CavaloTxtPequeno {
+  color: #86868b;
+  font-size: 30px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.h1CavaloTxtPequeno strong {
+  color: #fff;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.h1CavaloLeft {
+  color: #86868b;
+  font-size: 19px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.h1CavaloLeft strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.AudioMix {
+  background-color: #000000;
+}
+
+.AudioMixTxt {
+  margin-top: 120px;
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.009em;
+}
+
+.txtAudio {
+  color: #86868b;
+  font-size: 23px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.txtAudio strong {
+  color: #fff;
+}
+
+.AudioMixImg {
+  width: 70%;
+  margin-top: 40px;
+}
+
+.AudioMixInfo h1 {
+  color: #fff;
+  margin-top: 40px;
+  font-size: 22px;
+  box-shadow: 0 1px 0 rgb(255, 255, 255);
+}
+
+.AudioMixInfo p {
+  color: #86868b;
+  font-size: 16px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+
+.shotIphone {
+  background-color: #000000;
+}
+
+.shotIphone h1 {
+  color: #fff;
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 600;
+  letter-spacing: -0.009em;
+  margin-top: 120px;
+}
+
+.shotIphone p {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+  margin-top: 20px;
+}
+
+.shotIphone p strong {
+  color: #fff;
+}
+
+
+.video-wrapper {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.VideoMusicaDisable {
+  display: none !important;
+}
+
+.VideoMusicaActive {
+  display: block;
+}
+
+#play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 3rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.camera {
+  background-color: #000000;
+}
+
+.AnimacaoScroll {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+
+}
+
+.media-container3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ImgHero
+{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 70px; */
+}
+
+
+
+.InicialFoto {
+  width: 77%;
+  height: auto;
+  object-fit: cover;
+  clip-path: inset(1% round 11%);
+  z-index: 1;
+  margin-left: 162px;
+  margin-bottom: 20px;
+}
+
+.FotoIphone {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  z-index: 2;
+}
+
+.camera p {
+  margin-top: 40px;
+  color: rgb(134, 134, 139);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.direita {
+  margin-left: 75px;
+}
+
+.camera strong {
+  color: #fff;
+}
+
+.DemonsTracaoImg img {
+  width: 75%;
+  border-radius: 13px;
+}
+
+.imgDesactive {
+  display: none;
+}
+
+.imgactive {
+  display: inline-block !important;
+}
+
+.boxOpcoesCam {
+  margin-top: 20px;
+  border-radius: 12px;
+  background-color: #333336;
+  padding: 6px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+}
+
+.boxOpcoesCam a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 6px;
+  color: #b7b7b8;
+  border-radius: 20px;
+  transition: 0.4s;
+  margin: 0 8px;
+}
+
+.boxOpcoesCam a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.boxOpcoesCam .ativado {
+  color: #000000 !important;
+  background-color: #fff;
+  padding: 10px 6px;
+  transition: 0.4s;
+}
+
+.boxOpcoesCam a:not(.ativado):hover {
+  color: #fff;
+  background-color: #444;
+}
+
+.txtDesativado {
+  display: none !important;
+}
+
+.infoCams h1 {
+  margin-top: 30px;
+  color: #86868b;
+  font-size: 17px;
+  line-height: 1.4705882353;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+}
+
+.infoCams strong {
+  color: #fff;
+}
+
+.cameraH1 {
+  margin-top: 140px;
+  font-size: 21px;
+  color: #86868b;
+  line-height: 1.381;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+}
+
+.Photographic {
+  background-color: #000000;
+}
+
+.PhotographicRed {
+  padding: 10px;
+  color: #fefdfc;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-shadow:
+    0 0 5px #caa537,
+    0 0 10px #caa537,
+    0 0 15px #c7611dcb,
+    0 0 20px #c7611dcb,
+    0 0 25px #c7611dcb,
+    0 0 30px #c7611dcb,
+    0 0 35px #c7611dcb;
+}
+
+.PhotographicText {
+  margin-top: 140px;
+  font-size: 80px;
+  color: #beb8b4;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.StyleCam {
+  margin-top: 100px;
+  border-radius: 12px;
+}
+
+.PhotographicSubInfo {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+  margin-top: 100px;
+}
+
+.Photographic p strong {
+  color: #fff;
+}
+
+
+/* Parallax */
+
+
+.tituloSyle {
+  font-size: 40px !important;
+  line-height: 1.1 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0em !important;
+  color: #fff !important;
+  margin-top: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.infoStyle {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+  margin-top: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.StyleCamCima {
+  height: 80%;
+  transition: opacity 1s ease-in-out;
+}
+
+.StyleCamCima .visible {
+  opacity: 1;
+}
+
+.processador {
+  background-color: #000000;
+}
+
+.A18Txt {
+  margin-top: 80px;
+  padding: 10px;
+  color: #fefdfc;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-shadow:
+    0 0 5px #caa537,
+    0 0 10px #caa537,
+    0 0 15px #c7611dcb,
+    0 0 20px #c7611dcb,
+    0 0 25px #c7611dcb,
+    0 0 30px #c7611dcb,
+    0 0 35px #c7611dcb;
+}
+
+.A18SubTxt {
+  font-size: 80px;
+  color: #beb8b4;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.infoA18 {
+  margin-top: 30px;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+}
+
+.infoA18 strong {
+  color: #fff;
+}
+
+
+.infoProcessadorA18 {
+  box-shadow: 0px -1px rgb(255, 255, 255);
+  margin-top: 80px;
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  color: #86868b;
+  text-align: justify;
+  padding-top: 25px;
+}
+
+.infoProcessadorA18 strong {
+  color: #fff;
+  font-weight: 800;
+}
+
+.comparacaoProcessador {
+  margin-top: 30px;
+  font-size: 26px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  display: flex;
+  color: #ffff;
+  gap: 10px;
+}
+
+select.form-select {
+  background-color: #1a1a1a00;
+  color: #fff;
+  border: 1px solid #f7f7f7;
+  border-radius: 19px;
+  padding: 6px 12px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 215px;
+  outline: none;
+}
+
+select.form-select:focus {
+  border-color: #00aaff;
+  color: #000;
+  background-color: #fff;
+}
+
+.infoUpto {
+  color: #86868b !important;
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  margin-top: 40px;
+}
+
+.infoUpto strong {
+  background-image: linear-gradient(270deg, #f5e3d9 40%, #fdc9ae);
+  background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  font-size: 28px;
+  line-height: 1.1428571429;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: block;
+  margin: 4px 0;
+}
+
+
+.games {
+  /* background: linear-gradient(to bottom, #000000, #131313); */
+  background: #000;
+}
+
+.boxGame {
+  border: 3px solid #0e0d0ded;
+  border-radius: 12px;
+  background-color: #000000;
+  padding: 35px;
+  position: relative
+}
+
+.joguin {
+  color: #86868b !important;
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.textPrincipal {
+  color: #fff;
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 600;
+  letter-spacing: -0.009em;
+  margin-top: -185px;
+}
+
+.subInfoGaming {
+  color: #86868b;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+
+.subInfoGaming strong {
+  color: #fff;
+}
+
+.Faster2x {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #86868b;
+  margin-top: 100px;
+}
+
+.Faster2x strong {
+  color: #fff;
+}
+
+.bateria {
+  background-color: #000;
+}
+
+.huge {
+  color: #c8c2bd;
+  font-size: 75px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin-top: 100px;
+}
+
+.huge strong {
+  color: #fff;
+  text-shadow: 0 0 5px #caa537, 0 0 10px #caa537, 0 0 15px #c7611dcb, 0 0 20px #c7611dcb, 0 0 25px #c7611dcb, 0 0 30px #c7611dcb, 0 0 35px #c7611dcb;
+}
+
+.infoBateria {
+  margin-top: 40px;
+  color: #86868b;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+
+.infoBateria strong {
+  color: #fff;
+}
+
+.infoBateriaHour {
+  color: #86868b;
+  font-size: 20px;
+  line-height: 1.2353641176;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  margin-top: 60px;
+}
+
+.infoBateriaHour strong {
+  color: #ffff;
+  font-size: 42px;
+}
+
+.media-container4 {
+  position: relative;
+  margin-top: 100px;
+}
+
+.imagemDaNave {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  z-index: 2;
+}
+
+.VideoNave {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 125px;
+  clip-path: inset(1% round 11%);
+}
+
+.bateriaComparacao {
+  background-color: #000;
+
+}
+
+.comparacaoBateria {
+  margin-top: 150px;
+  font-size: 26px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  display: flex;
+  color: #ffff;
+  gap: 10px;
+}
+
+.Customize {
+  background-color: #000;
+}
+
+.customizeStylize {
+  color: #c8c2bd;
+  ;
+  font-size: 80px;
+  margin-top: 200px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.customizeStylize strong {
+  color: #fff;
+  text-shadow: 0 0 5px #caa537, 0 0 10px #caa537, 0 0 15px #c7611dcb, 0 0 20px #c7611dcb, 0 0 25px #c7611dcb, 0 0 30px #c7611dcb, 0 0 35px #c7611dcb;
+}
+
+.maozona {
+  margin-top: 80px;
+}
+
+.carrosel4 {
+  background: linear-gradient(to bottom, #000000, #131313)
+}
+
+.signal {
+  background-color: #000;
+}
+
+.noSignalTxt {
+  margin-top: 150px;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #fff;
+}
+
+.noSignalP {
+  margin-top: 30px;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+}
+
+.noSignalP strong {
+  color: #fff;
+}
+
+.noSignalMap {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+}
+
+.noSignalMapA {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  text-decoration: none;
+  color: #007aff !important;
+}
+
+.noSignalMapA:hover {
+  text-decoration: underline;
+}
+
+.noSignalMap strong {
+  color: #fff;
+}
+
+.noSignalMapImp {
+  font-size: 28px;
+  line-height: 1.1428571429;
+  font-weight: 600;
+  letter-spacing: .007em;
+  color: #fff;
+}
+
+.infoNoSignal {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+}
+
+.infoNoSignal strong {
+  color: #fff;
+}
+
+.police911 {
+  box-shadow: 0px -1px rgb(255, 255, 255);
+  margin-top: 50px;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  letter-spacing: .011em;
+  color: #86868b;
+  text-align: justify;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.police911 strong {
+  color: #fff;
+}
+
+.timeUpgradeInfoPrincipal {
+  padding-bottom: 36px;
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: #ffff;
+}
+
+.comparacaoIphones {
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  color: #f5f5f7;
+  ;
+}
+
+.form-selectComparationIphone {
+  background-color: #1a1a1a00;
+  color: #fff;
+  border: 1px solid #f7f7f7;
+  border-radius: 19px;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 90%;
+  max-width: 100%;
+  outline: none;
+  margin: 0 -17px;
+}
+
+.form-selectComparationIphone:focus {
+  border-color: #00aaff;
+  color: #000;
+  background-color: #fff;
+}
+
+.subUpgradeIphone {
+  color: #86868b;
+  margin: 10px 0;
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+
+.subUpgradeIphone strong {
+  color: #fff;
+}
+
+
+.boxxxxx {
+  border: 3px solid #0e0d0ded;
+  border-radius: 12px;
+  background-color: #141312;
+  padding: 35px;
+  position: relative;
+}
+
+.boxinho {
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 290px;
+}
+
+.iconeDoidao
+{
+  width: 25%;
+  margin-left: 130px;
+  margin-bottom: 40px;
+}
+
+.subinfoBoxinho
+{
+  color: #86868b;
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 600;
+  letter-spacing: .011em;
+  transition: all 0.4s ease;
+}
+
+.UpToBoxinho
+{
+  color: #86868b;
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 600;
+  letter-spacing: .011em;
+  transition: all 0.4s ease;
+}
+
+.UpToBoxinho strong
+{
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: all 0.4s ease;
+}
+
+.carregando
+{
+  width: 13%;
+  margin-top: -10px;
+}
+
+.cameraControlButon
+{
+  margin-left: 150px;
+  width: 15%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.iphoneMetade {
+  width: 50%;
+  height: 70%;
+  object-fit: cover;
+  object-position: top;
+  margin: 0;
+  margin-left: 90px;
+  margin-bottom: -45px;
+}
+
+.iphoneMetadeLaranja
+{
+  width: 53%;
+  height: 70%;
+  object-fit: cover;
+  object-position: top;
+  margin: 0;
+  margin-left: 80px;
+  margin-bottom: -70px;
+}
+
+.subinfoBoxinho strong
+{
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+
+.quantidadeBateria, .porcentagemRapido
+{
+  transition: all 1s ease;
+}
+
+.piscando {
+  animation: piscadinha 0.5s ease-in-out; /* 0.5 segundos para a animação */
+}
+
+.TradeIn
+{
+  margin: 30px;
+  margin-top: 80px;
+}
+
+.TradeInH1
+{
+  color: #6e6e73;
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+
+.TradeInA
+{
+    font-size: 18px;
+    line-height: 1.381002381;
+    font-weight: 600;
+    text-decoration: none;
+    color: #007aff !important;
+}
+
+.TradeInA:hover {
+  text-decoration: underline;
+}
+
+.IphoneRealmenteMetade
+{
+  margin-top: 60px;
+  width: 25%;
+  height: 61%;
+}
+
+.Designed
+{
+  background-color: #000;
+}
+
+.tituloDesigned
+{
+  font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.subTituloDesigned {
+  margin-top: 90px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+.verde{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 8%;
+}
+
+.infoVerde
+{
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  color: #86868b;
+}
+
+.infoVerde strong
+{
+  color: #fff;
+}
+
+.LeanA
+{
+  margin-top: 90px;
+    font-size: 18px;
+    line-height: 1.381002381;
+    font-weight: 600;
+    text-decoration: none;
+    color: #007aff !important;
+}
+
+.LeanA:hover {
+  text-decoration: underline;
+}
+
+.Significant {
+  background-color: #1d1d1f;
+  padding: 80px 0;
+}
+
+.SignificantH1 {
+  font-size: 56px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.boxIphone {
+  background-color: #000;
+  border-radius: 12px;
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.accordion-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #000;
+}
+
+.accordion-body {
+  background-color: #000;
+  color: #bbb;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.imgActive {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.imgBlock {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.WhyApple
+{
+  background-color: #1d1d1f;
+}
+
+
+.WhyAppleTitulo{
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: #fff;
+}
+
+.WhyAppleBox {
+  background-color: #000;
+  border-radius: 12px;
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.Keepexploring
+{
+  background-color: #1d1d1f;
+}
+
+.KeepexploringTitulo
+{
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-bottom: 180px;
+  margin-top: 80px;
+}
+
+.KeepexploringA
+{
+  font-size: 18px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  text-decoration: none;
+  color: #007aff !important;
+  margin-bottom: 180px;
+}
+
+.KeepexploringBox
+{
+  background-color: #000;
+  border-radius: 12px;
+  padding: 0px 50px;
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.OpcoesCores
+{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.IphoneCorAzul, .IphoneCorDourado
+{
+  margin-top: 80px;
+}
+
+.CorOpcaoDouado
+{
+  width: 11px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #a8907e;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.CorOpcaoCinza
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #a6a198;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.CorOpcaoBranco
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #dbdad7;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+
+.CorOpcaoPreto
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #202121;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.KeepexploringIphone
+{
+  font-size: 24px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: .009em;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.KeepexploringSubInfo
+{
+  font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.KeepexploringVisual
+{
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  color: #d2d2d7;
+  margin-top: 20px;
+  margin-bottom: 54px;
+}
+
+.KeepexploringComprar
+{
+  font-size: 18px;
+  line-height: 1.381002381;
+  font-weight: 600;
+  text-decoration: none;
+  color: #007aff !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.KeepexploringInformations
+{
+  font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+
+.CorOpcaoAzul
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6473b0;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.CorOpcaoVerde
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #82a8a6;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.CorOpcaoRosa
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #c981b0;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.CorOpcaoCinza{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  margin: 0 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+
+.Intelligence2
+{
+  width: 10%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.Intelligence
+{
+  width: 10%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Intelligence3
+{
+  width: 10%;
+  margin-top: 10px;
+}
+
+.BotaoDeVerdade
+{
+  border-radius: 19px !important;
+  padding: 10px 32px;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.linhatracejada {
+  width: 100%;
+  border-top: 2px solid #424245;
+  margin: 19px 0;
+}
+
+
+.TakeCloser
+{
+  background-color: #000;
+}
+
+.TakeCloserH1 {
+  margin-top: 200px;
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: #fff;
+}
+
+.ImgAtivadaCor{
+  display: inline-flex !important;
+  transition: all 0.3s ease;
+}
+
+.ImgDesativadaCor{
+  display: none;
+}
+
+.CoresPadroes
+{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.CloserCores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #2e2e30;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+.CloserCores a
+{
+  cursor: pointer;
+}
+
+
+.CloserLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.CloserTodasCores, .CloserPreto, .CloserBranco, .CloserCinza, .CloserDourado {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.CloserTodasCores {
+  background: linear-gradient(135deg, #0c0c0c, #0d0d0e, #171718);
+}
+
+.CloserPreto {
+  background-color: #181919;
+}
+
+.CloserBranco {
+  background-color: #d3d1cd;
+}
+
+.CloserCinza {
+  background-color: #959086;
+}
+
+.CloserDourado {
+  background-color: #977e6b;
+}
+
+.CorAtivada {
+  border: 1px solid #5c9ee9; /* Borda azul */
+  border-radius: 50%;
+  transform: scale(1.2);
+  padding: 0;
+}
+
+.TextoCores
+{
+  color: #959086;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.TextoAtivado
+{
+  display: block;
+}
+
+.TextoDesativado
+{
+  display: none !important;
+}
+
+.Footer
+{
+  background-color: #161617;
+}
+
+
+.FooterTitulo
+{
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-top: 150px;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.FooterSub
+{
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #86868b;
+  margin-bottom: 14px;
+}
+
+.list-unstyled a{
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.list-unstyled a.Importante {
+  font-size: 28px !important;
+  line-height: 1.14286 !important;
+  font-weight: 600 !important;
+}
+
+.list-unstyled a.compareSwitchA {
+  font-size: 17px !important;
+  line-height: 1.2353641176 !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.022em !important;
+}
+
+.compareSwitch
+{
+  margin-top: 30px !important;
+  margin-bottom: 14px !important;
+}
+
+
+
+@keyframes piscadinha {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
